@@ -1,0 +1,28 @@
+
+body{
+    margin: 0%;
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'navbar navbar navbar navbar'
+                         'section section section section'
+                         'aside aside aside aside'
+                         'footer footer footer footer';
+    grid-template-rows: 60vh 30vh 40vh 40vh 15vh;
+    grid-template-columns: 24.7vw 24.7vw 24.7vw 24.7vw;
+}
+
+header{
+    border-top: 15px;
+    grid-area: header;
+    background-color: blue;
+}
+
+div{
+    width: 20px;
+    height: 20px;
+}
+
+h1{
+    color: white;
+
+}
