@@ -61,12 +61,15 @@ header div{
 h1{
     color: white;
     font-family: 'Pacifico', cursive;
+    font-size: 50px;
     
 }
 
 header div p{
+    width: 65%;
     color:whitesmoke;
     text-align: left;
+    font-size: 25px;
     
 }
 
@@ -100,14 +103,15 @@ section{
     display: flex;
     justify-content: space-around;                 
 }
-
-#button{
-    margin: 5%;
+ #input{
+    margin: 5px;
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
+    color: blue;
+ }
+ 
 
 #video{
     border-radius: 50%;
@@ -188,7 +192,8 @@ footer{
     width: 50%;
     display: flex;
     justify-content: space-around;
-    padding: 10px 10px;
+    text-decoration: none;
+    
 }
 
 @media(max-width:780px){
