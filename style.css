@@ -62,14 +62,12 @@ h1{
     color: white;
     font-family: 'Pacifico', cursive;
     
-   
-
 }
 
-
-p{
-    color: gray;
+header div p{
+    color:whitesmoke;
     text-align: left;
+    
 }
 
 #ponto{
@@ -156,7 +154,7 @@ aside{
     background-color:#2ed461c9; 
 }
 #redesSociais a:hover{
-    background-color: #2ed461c9;
+    background-color: black;
 } 
 #redesSociais img{
     border-radius: 100%;
@@ -179,7 +177,7 @@ footer{
     grid-area: footer;
     background-color: lightgray;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     width: 100%;
@@ -187,10 +185,10 @@ footer{
 }
 
 #contato{
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
-    background-color: blue;
+    padding: 10px 10px;
 }
 
 @media(max-width:780px){
